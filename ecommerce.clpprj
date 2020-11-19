@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="/var/www/ecommerce/ecommerce.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="/var/www/ecommerce/index.php"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <todoblock>
+  <todofile name="/var/www/ecommerce/res/admin/bootstrap/js/bootstrap.js">
+   <todo pos="28;1575" name="TODO: Check whether guarding this code with this `if` is really necessary."/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/dist/js/pages/dashboard.js">
+   <todo pos="30;21" name="todo list"/>
+   <todo pos="8;197" name="todo list plugin"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js">
+   <todo pos="1;0" name="TODO: in future try to replace most inline compability checks with polyfills for code readability"/>
+   <todo pos="2;5324" name="TODO: Refactor dom tree traversing here"/>
+   <todo pos="2;5697" name="TODO: Refactor dom tree traversing here"/>
+   <todo pos="4;5862" name="TODO: Currently escaped module pattern as otherwise folloowing default swill be shared among multip"/>
+   <todo pos="13;5979" name="TODO: try to minimize surplus spaces"/>
+   <todo pos="3;6310" name="TODO: refactor. Too long to read"/>
+   <todo pos="7;6433" name="TODO: Investigate this further and check for smarter handling"/>
+   <todo pos="7;6994" name="TODO: apparently this doesn't work in IE9!"/>
+   <todo pos="9;7128" name="TODO: apparently this doesn't work in IE9!"/>
+   <todo pos="9;7129" name="TODO: figure out and bind the errors logic for contenteditble mode"/>
+   <todo pos="9;7282" name="TODO: This might not work for attributes without value: &lt;input disabled>"/>
+   <todo pos="5;9049" name="TODO: Figure out a method from following 2 that would work universally"/>
+   <todo pos="5;9066" name="TODO: has problems in chrome 12. investigate block level and uneditable area inbetween"/>
+   <todo pos="13;12913" name="TODO: if I knew how to get dropped elements list from event I could limit it to only IMG element ca"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/chartjs/Chart.js">
+   <todo pos="4;838" name="TODO = check cross browser stuff with this."/>
+   <todo pos="4;844" name="TODO = check cross browser stuff with this."/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/js/sample.js">
+   <todo pos="4;37" name="TODO we can consider displaying some info box that"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js">
+   <todo pos="18;135" name="todo - should this be done? See thread 22677"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js">
+   <todo pos="3;193" name="todo The defaults should extend a `c` property and the internal settings"/>
+   <todo pos="2;193" name="@todo The defaults should extend a `c` property and the internal settings"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables.js">
+   <todo pos="36;2178" name="todo depreciated"/>
+   <todo pos="35;2178" name="@todo depreciated"/>
+   <todo pos="5;2217" name="todo Move options into their own plugins?"/>
+   <todo pos="4;2217" name="@todo Move options into their own plugins?"/>
+   <todo pos="4;2853" name="todo As per sort - can this be moved into an event handler?"/>
+   <todo pos="3;2853" name="@todo As per sort - can this be moved into an event handler?"/>
+   <todo pos="4;4550" name="todo Can this be moved into a 'data-ready' handler which is called when"/>
+   <todo pos="3;4550" name="@todo Can this be moved into a 'data-ready' handler which is called when"/>
+   <todo pos="26;4984" name="todo - for 1.11 this needs to be done by"/>
+   <todo pos="5;6273" name="todo Remove in 1.11"/>
+   <todo pos="4;6273" name="@todo Remove in 1.11"/>
+   <todo pos="3;7063" name="todo - Is there need for an augment function?"/>
+   <todo pos="2;7063" name="@todo - Is there need for an augment function?"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/daterangepicker/moment.js">
+   <todo pos="9;258" name="TODO: Find a better way to register and load all the locales in Node"/>
+   <todo pos="9;677" name="TODO: Move this out of here!"/>
+   <todo pos="13;680" name="TODO: Another silent failure?"/>
+   <todo pos="13;1117" name="TODO: We need to take the current isoWeekYear, but that depends on"/>
+   <todo pos="9;1155" name="TODO: Move this to another part of the creation flow to prevent circular deps"/>
+   <todo pos="5;1419" name="TODO: Use [].sort instead?"/>
+   <todo pos="9;2832" name="TODO (iskren): Use anchor date (like 1st Jan) to compute this."/>
+   <todo pos="5;2885" name="TODO: Use this.as('ms')?"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/flot/excanvas.js">
+   <todo pos="11;158" name="TODO: use runtimeStyle and coordsize"/>
+   <todo pos="11;165" name="TODO: use runtimeStyle and coordsize"/>
+   <todo pos="5;618" name="TODO: Branch current matrix so that save/restore has no effect"/>
+   <todo pos="9;943" name="TODO: Following is broken for curves due to"/>
+   <todo pos="7;1007" name="TODO: Gradients transformed with the transformation matrix."/>
+   <todo pos="22;1090" name="TODO: Figure out the correct size to fit the scale."/>
+   <todo pos="7;1282" name="TODO: Fix the min and max params."/>
+   <todo pos="5;1330" name="TODO: Implement"/>
+   <todo pos="5;1334" name="TODO: Implement"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.pie.js">
+   <todo pos="5;556" name="TODO: add extra shadow inside hole (with a mask) if the pie is tilted."/>
+   <todo pos="7;620" name="TODO: perhaps do some mathmatical trickery here with the Y-coordinate to compensate for pie tilt?"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.js">
+   <todo pos="1;207" name="TODO: document the structure and ordering of a FullCalendar lang file"/>
+   <todo pos="1;208" name="TODO: rename everything &quot;lang&quot; to &quot;locale&quot;, like what the moment project did"/>
+   <todo pos="1;556" name="TODO: move to date section?"/>
+   <todo pos="1;1344" name="TODO: make it work with timezone offset"/>
+   <todo pos="1;1441" name="TODO: week maybe?"/>
+   <todo pos="74;1485" name="TODO: more descrimination"/>
+   <todo pos="2;1703" name="TODO: better code reuse for this. Repeat code"/>
+   <todo pos="1;1874" name="TODO: very useful to have a handler that gets called upon cellOut OR when dragging stops (for clean"/>
+   <todo pos="23;2602" name="TODO: move to another class. not applicable to all Grids"/>
+   <todo pos="2;2634" name="TODO: move to another class. not applicable to all Grids"/>
+   <todo pos="2;2895" name="TODO: should probably move this to Grid.events, like we did event dragging / resizing"/>
+   <todo pos="45;3005" name="TODO: better API for expressing this requirement"/>
+   <todo pos="2;3089" name="TODO: move to another class. not applicable to all Grids"/>
+   <todo pos="2;3103" name="TODO: move to another class. not applicable to all Grids"/>
+   <todo pos="2;3309" name="TODO: consolidate with getEventSkinCss?"/>
+   <todo pos="88;4064" name="TODO: make internal"/>
+   <todo pos="2;4362" name="TODO: move to DayGrid.event, similar to what we did with Grid's drag methods"/>
+   <todo pos="35;4878" name="TODO: cache somehow?"/>
+   <todo pos="32;6137" name="TODO: doesn't work with touch"/>
+   <todo pos="69;6187" name="TODO: deprecate"/>
+   <todo pos="47;6591" name="TODO: decouple the two"/>
+   <todo pos="51;7009" name="TODO: rename to computeDefaultEventEnd"/>
+   <todo pos="2;7385" name="TODO: going forward, most of this stuff should be directly handled by the view"/>
+   <todo pos="1;7629" name="TODO: rename all header-related things to &quot;toolbar&quot;"/>
+   <todo pos="4;8114" name="TODO: repeat code, same code for event classNames"/>
+   <todo pos="2;8451" name="TODO: make this a part of the event -> eventRange system"/>
+   <todo pos="2;8631" name="TODO: don't use so many closures. possible memory issues when lots of events with same ID."/>
+   <todo pos="4;8834" name="TODO: use ranges in the future"/>
+   <todo pos="53;8993" name="TODO: make grid responsible"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.numeric.extensions.js">
+   <todo pos="13;26" name="todo"/>
+   <todo pos="13;32" name="todo"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/jQueryUI/jquery-ui.js">
+   <todo pos="3;424" name="TODO: remove support for widgetEventPrefix"/>
+   <todo pos="2;900" name="TODO: make sure destroying one instance of mouse doesn't mess with"/>
+   <todo pos="3;2732" name="TODO: It should never be possible to not have an active item at this"/>
+   <todo pos="7;3545" name="TODO pass through original event correctly (just as 2nd argument doesn't work)"/>
+   <todo pos="2;3907" name="TODO rename to &quot;widget&quot; when switching to widget factory"/>
+   <todo pos="3;7016" name="TODO: determine which cases actually cause this to happen"/>
+   <todo pos="5;7120" name="TODO : What's going on here?"/>
+   <todo pos="3;7166" name="TODO: make renderAxis a prototype function"/>
+   <todo pos="3;7221" name="TODO: Unwrap at same DOM position"/>
+   <todo pos="4;7596" name="TODO: Seems like a bug to cache this.outerDimensions"/>
+   <todo pos="24;7626" name="TODO: Don't modify option"/>
+   <todo pos="3;8880" name="TODO: Remove hack when datepicker implements"/>
+   <todo pos="3;13691" name="TODO: Still need to figure out a way to make relative sorting possible"/>
+   <todo pos="39;14299" name="TODO: Logic to fuzzy, see line 316/317)"/>
+   <todo pos="3;14968" name="TODO: do we really want to consider this a stop?"/>
+   <todo pos="4;15199" name="TODO: what should we do with values that can't be parsed?"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/res/admin/plugins/timepicker/bootstrap-timepicker.js">
+   <todo pos="1;0" name="TODO: move arrow styles and button click code into configurable items, with defaults matching the ex"/>
+  </todofile>
+  <todofile name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.phpmailer.php">
+   <todo pos="10;1165" name="TODO: Write our own &quot;idn_to_ascii&quot; function for PHP &lt;= 5.2."/>
+   <todo pos="9;1165" name="@TODO: Write our own &quot;idn_to_ascii&quot; function for PHP &lt;= 5.2."/>
+   <todo pos="9;1381" name="TODO: If possible, this should be changed to escapeshellarg.  Needs thorough testing."/>
+   <todo pos="18;2351" name="TODO would be nice to use php://temp streams here, but need to wrap for PHP &lt; 5.1"/>
+   <todo pos="17;2351" name="@TODO would be nice to use php://temp streams here, but need to wrap for PHP &lt; 5.1"/>
+  </todofile>
+ </todoblock>
+ <dbgurls>
+  <url name="http://http://www.lojasgv.com.br/admin/login"/>
+ </dbgurls>
+ <filescache>
+  <file name="/var/www/ecommerce/views-cache/login.fd07f5e328612723b23b0dd739ae2544.rtpl.php" crc="1605148588018"/>
+  <file name="/var/www/ecommerce/views-cache/index.fd07f5e328612723b23b0dd739ae2544.rtpl.php" crc="1605144204699"/>
+  <file name="/var/www/ecommerce/views-cache/index.30baafefdaf59507034cd09faab0b416.rtpl.php" crc="1601850459086"/>
+  <file name="/var/www/ecommerce/views-cache/index.084b88706361b4cb2b884279c290bb35.rtpl.php" crc="1602892381808"/>
+  <file name="/var/www/ecommerce/views-cache/header.fd07f5e328612723b23b0dd739ae2544.rtpl.php" crc="1605144204675"/>
+  <file name="/var/www/ecommerce/views-cache/header.30baafefdaf59507034cd09faab0b416.rtpl.php" crc="1602197984067"/>
+  <file name="/var/www/ecommerce/views-cache/header.084b88706361b4cb2b884279c290bb35.rtpl.php" crc="1602892381808"/>
+  <file name="/var/www/ecommerce/views-cache/footer.fd07f5e328612723b23b0dd739ae2544.rtpl.php" crc="1605144204699"/>
+  <file name="/var/www/ecommerce/views-cache/footer.30baafefdaf59507034cd09faab0b416.rtpl.php" crc="1601850459086"/>
+  <file name="/var/www/ecommerce/views-cache/footer.084b88706361b4cb2b884279c290bb35.rtpl.php" crc="1602892381808"/>
+  <file name="/var/www/ecommerce/views/admin/login.html" crc="1605146802522"/>
+  <file name="/var/www/ecommerce/views/admin/index.html" crc="1602892673609"/>
+  <file name="/var/www/ecommerce/views/admin/header.html" crc="1602893189433"/>
+  <file name="/var/www/ecommerce/views/admin/footer.html" crc="1602893023643"/>
+  <file name="/var/www/ecommerce/views/index.html" crc="1602892363592"/>
+  <file name="/var/www/ecommerce/views/header.html" crc="1602892358272"/>
+  <file name="/var/www/ecommerce/views/footer.html" crc="1602892370920"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/templates/test.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Middleware/SessionCookieTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Middleware/PrettyExceptionsTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Middleware/MethodOverrideTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Middleware/FlashTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Middleware/ContentTypesTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Http/UtilTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Http/ResponseTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Http/RequestTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Http/HeadersTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Http/CookiesTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Helper/SetTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/ViewTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/SlimTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/RouteTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/RouterTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/MiddlewareTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/LogWriterTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/LogTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/Foo.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/EnvironmentTest.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/tests/bootstrap.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware/SessionCookie.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware/MethodOverride.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware/Flash.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware/ContentTypes.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Http/Util.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Http/Response.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Http/Request.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Http/Headers.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Http/Cookies.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Helper/Set.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Exception/Stop.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Exception/Pass.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/View.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Slim.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Router.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Route.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Middleware.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/LogWriter.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Log.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/Slim/Environment.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/index.php" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/slim/slim/composer.json" crc="1483791701000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/tests/Rain/Tpl/PluginTest.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/tests/Rain/Tpl/PluginContainerTest.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/tests/Rain/_files/template.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/tests/Rain/TplTest.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/test/test.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/test/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/simple/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/simple/simple_template.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/raintpl3/subfolder/footer.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/raintpl3/css/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/raintpl3/page.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/raintpl2/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/raintpl2/page.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/nested_loop/test.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/nested_loop/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/image_resize/style.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/image_resize/page.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/variables.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/type.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/tables.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/scaffolding.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/reset.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/patterns.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/mixins.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/forms.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/lib/bootstrap.less" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/less-1.1.5.min.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-twipsy.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-tabs.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-scrollspy.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-popover.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-modal.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-dropdown.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-buttons.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/js/bootstrap-alerts.js" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/hero.html" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/templates/bootstrap/bootstrap.min.css" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/Plugin/PathReplace.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/Plugin/ImageResize.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/Plugin/Compress.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/SyntaxException.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/PluginContainer.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/Plugin.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/NotFoundException.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/IPlugin.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl/Exception.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/library/Rain/Tpl.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/README.txt" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-webpage.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-webpage-new.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-simple.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-plugin-img-resize.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-nested-loop.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-extend-class.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-draw-string.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-bootstrap.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/example-all.php" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/rain/raintpl/composer.json" crc="1356326672000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/extras/ntlm_sasl_client.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/extras/htmlfilter.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/extras/EasyPeasyICS.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeVisualStudio.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeRDark.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeMidnight.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeMDUltra.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeFadeToGrey.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeEmacs.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeEclipse.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeDjango.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeDefault.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shThemeAppleScript.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreRDark.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreMidnight.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreMDUltra.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreFadeToGrey.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreEmacs.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreEclipse.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreDjango.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCoreDefault.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/styles/shCore.css" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/scripts/XRegExp.js" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/scripts/shLegacy.js" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/scripts/shCore.js" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/scripts/shBrushPhp.js" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/scripts/shAutoloader.js" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/index.html" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/contentsutf8.html" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/examples/contents.html" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/PHPMailerAutoload.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/get_oauth_token.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/composer.json" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.smtp.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.pop3.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.phpmaileroauthgoogle.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.phpmaileroauth.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/phpmailer/phpmailer/class.phpmailer.php" crc="1483954427000"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php" crc="1605228559367"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/DB/Sql.php" crc="1601594326272"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/PageAdmin.php" crc="1602891220110"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/Page.php" crc="1602893512101"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/src/Model.php" crc="1605151843603"/>
+  <file name="/var/www/ecommerce/vendor/hcodebr/php-classes/composer.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/vendor/composer/installed.json" crc="1601655659365"/>
+  <file name="/var/www/ecommerce/vendor/composer/ClassLoader.php" crc="1601596045265"/>
+  <file name="/var/www/ecommerce/vendor/composer/autoload_static.php" crc="1601596120848"/>
+  <file name="/var/www/ecommerce/vendor/composer/autoload_real.php" crc="1601596120848"/>
+  <file name="/var/www/ecommerce/vendor/composer/autoload_psr4.php" crc="1601596120848"/>
+  <file name="/var/www/ecommerce/vendor/composer/autoload_namespaces.php" crc="1601596120848"/>
+  <file name="/var/www/ecommerce/vendor/composer/autoload_classmap.php" crc="1601421747444"/>
+  <file name="/var/www/ecommerce/vendor/autoload.php" crc="1601421747444"/>
+  <file name="/var/www/ecommerce/res/site/js/script.slider.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/js/owl.carousel.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/js/main.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/js/jquery.sticky.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/js/jquery.easing.1.3.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/js/bxslider.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/css/style.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/css/responsive.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/css/owl.carousel.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/css/font-awesome.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/css/bootstrap.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/pagamento.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/login.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/lista-produtos.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/esqueci.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/detalhes-produto.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/site/carrinho.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/timepicker/bootstrap-timepicker.min.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/timepicker/bootstrap-timepicker.min.css" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/timepicker/bootstrap-timepicker.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/timepicker/bootstrap-timepicker.css" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/sparkline/jquery.sparkline.min.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/sparkline/jquery.sparkline.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/slimScroll/jquery.slimscroll.min.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/slimScroll/jquery.slimscroll.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/zh-TW.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/zh-CN.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/vi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/uk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/tr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/th.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/sv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/sr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/sr-Cyrl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/sk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ru.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ro.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/pt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/pt-BR.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/pl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/nl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/nb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ms.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/mk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/lv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/lt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ko.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/km.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ja.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/it.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/is.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/id.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/hu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/hr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/hi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/he.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/gl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/fr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/fi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/fa.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/eu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/et.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/es.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/el.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/de.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/da.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/cs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/bg.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/az.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/i18n/ar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.min.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.min.css" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.full.min.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.full.js" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/select2/select2.css" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/pace/pace.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/pace/pace.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/pace/pace.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/pace/pace.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/morris/morris.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/morris/morris.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/morris/morris.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/knob/jquery.knob.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jvectormap/jquery-jvectormap-usa-en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jvectormap/jquery-jvectormap-1.2.2.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jQueryUI/jquery-ui.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jQueryUI/jquery-ui.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/jQuery/jquery-2.2.3.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ionslider/ion.rangeSlider.skinNice.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ionslider/ion.rangeSlider.skinFlat.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ionslider/ion.rangeSlider.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ionslider/ion.rangeSlider.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/phone-codes/readme.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/phone-codes/phone-codes.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/phone-codes/phone-be.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.regex.extensions.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.phone.extensions.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.numeric.extensions.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.extensions.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/input-mask/jquery.inputmask.date.extensions.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/yellow.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/square.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/red.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/purple.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/pink.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/orange.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/grey.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/green.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/blue.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/aero.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/square/_all.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/polaris/polaris.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/yellow.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/red.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/purple.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/pink.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/orange.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/minimal.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/grey.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/green.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/blue.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/aero.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/minimal/_all.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/yellow.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/red.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/purple.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/pink.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/orange.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/line.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/grey.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/green.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/blue.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/aero.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/line/_all.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/futurico/futurico.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/yellow.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/red.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/purple.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/pink.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/orange.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/grey.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/green.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/flat.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/blue.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/aero.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/flat/_all.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/icheck.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/icheck.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/iCheck/all.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.print.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fullcalendar/fullcalendar.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.time.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.time.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.threshold.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.threshold.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.symbol.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.symbol.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.stack.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.stack.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.selection.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.selection.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.resize.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.resize.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.pie.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.pie.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.navigate.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.navigate.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.image.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.image.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.fillbetween.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.fillbetween.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.errorbars.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.errorbars.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.crosshair.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.crosshair.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.categories.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.categories.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.canvas.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.flot.canvas.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.colorhelpers.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/jquery.colorhelpers.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/excanvas.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/flot/excanvas.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fastclick/fastclick.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/fastclick/fastclick.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/daterangepicker/moment.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/daterangepicker/moment.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/daterangepicker/daterangepicker.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/daterangepicker/daterangepicker.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.vi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ua.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.tr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.th.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.sw.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.sv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.sq.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.sl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.sk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ru.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.rs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ro.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.pt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.pl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.no.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.nl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.nb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ms.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.mk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.lv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.lt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.kr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.kk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ka.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ja.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.it.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.is.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.id.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.hu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.hr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.he.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.gl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.fr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.fi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.fa.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.et.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.es.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.el.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.de.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.da.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.cy.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.cs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.bg.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.az.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/locales/bootstrap-datepicker.ar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/datepicker3.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datepicker/bootstrap-datepicker.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/swf_path.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/select_single.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/select_os.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/select_multi.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/select_column.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/plug-in.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/pdf_message.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/new_init.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/multi_instance.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/jqueryui.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/defaults.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/collection.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/button_text.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/bootstrap.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/examples/ajax.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/data/ssp.php" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/data/2500.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/state_saving.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/large_js_source.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Scroller/Readme.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/styling/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/styling/compact.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/Responsive/License.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/examples/scrolling.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/examples/html.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/examples/events.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/KeyTable/Readme.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedHeader/Readme.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/right_column.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/index_column.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/css_size.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/colvis.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/FixedColumns/License.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/two_tables.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/title_callback.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/text.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/restore.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/new_init.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/mouseover.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/jqueryui.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/group_columns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/examples/button_order.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColVis/License.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/state_save.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/server_side.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/scrolling.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/reset.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/realtime.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/predefined.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/new_init.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/colvis.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/col_filter.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/ColReorder/License.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/step-callback.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/scrolling.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/fill-both.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/examples/columns.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/extensions/AutoFill/Readme.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables_themeroller.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/jquery.dataTables.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/dataTables.bootstrap.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/dataTables.bootstrap.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/datatables/dataTables.bootstrap.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/colorpicker/bootstrap-colorpicker.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/colorpicker/bootstrap-colorpicker.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/colorpicker/bootstrap-colorpicker.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/colorpicker/bootstrap-colorpicker.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor_iequirks.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor_ie8.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor_ie7.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor_ie.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor_gecko.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/editor.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/dialog_iequirks.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/dialog_ie8.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/dialog_ie7.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/dialog_ie.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/skins/moono/dialog.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/toolbarconfigurator/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/toolbar/toolbar.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/magicline/magicline.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/enterkey/enterkey.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/dialog/dialog.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/assets/posteddata.php" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/xhtmlstyle.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/uilanguages.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/uicolor.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/tabindex.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/sample_posteddata.php" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/sample.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/sample.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/replacebycode.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/replacebyclass.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/readonly.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/jquery.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/inlinetextarea.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/inlinebycode.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/inlineall.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/divreplace.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/datafiltering.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/appendto.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/api.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/old/ajax.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/js/sf.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/js/sample.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/css/samples.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/samples/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/table/dialogs/table.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/scayt/dialogs/options.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/pastefromword/filter/default.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/link/dialogs/link.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/link/dialogs/anchor.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/image/dialogs/image.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/dialog/dialogDefinition.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/about/dialogs/about.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/zh.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/zh-cn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/vi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/uk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ug.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/tt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/tr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/th.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sr-latn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sq.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/sk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/si.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ru.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ro.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/pt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/pt-br.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/pl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/no.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/nl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/nb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ms.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/mn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/mk.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/lv.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/lt.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ku.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ko.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/km.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ka.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ja.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/it.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/is.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/id.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/hu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/hr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/hi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/he.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/gu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/gl.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/fr.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/fr-ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/fo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/fi.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/fa.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/eu.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/et.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/es.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/eo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/en.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/en-gb.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/en-ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/en-au.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/el.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/de.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/de-ch.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/da.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/cy.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/cs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ca.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/bs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/bn.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/bg.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/ar.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/lang/af.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/adapters/jquery.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/styles.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/contents.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/config.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/ckeditor.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/ckeditor/build-config.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/chartjs/Chart.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/chartjs/Chart.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-slider/slider.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/plugins/bootstrap-slider/bootstrap-slider.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/timeline.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/sliders.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/modals.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/icons.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/general.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/UI/buttons.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/tables/simple.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/tables/data.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/mailbox/read-mail.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/mailbox/mailbox.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/mailbox/compose.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/layout/top-nav.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/layout/fixed.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/layout/collapsed-sidebar.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/layout/boxed.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/forms/general.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/forms/editors.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/forms/advanced.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/register.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/profile.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/pace.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/login.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/lockscreen.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/invoice.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/invoice-print.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/blank.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/500.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/examples/404.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/charts/morris.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/charts/inline.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/charts/flot.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/charts/chartjs.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/widgets.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/pages/calendar.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/upgrade.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/plugins.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/license.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/layout.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/introduction.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/implementations.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/faq.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/download.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/dependencies.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/components.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/browsers.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/advice.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/include/adminlte-options.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/build/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/style.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/documentation/docs.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/js/pages/dashboard2.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/js/pages/dashboard.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/js/demo.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/js/app.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/js/app.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-yellow.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-yellow.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-yellow-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-yellow-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-red.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-red.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-red-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-red-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-purple.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-purple.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-purple-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-purple-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-green.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-green.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-green-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-green-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-blue.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-blue.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-blue-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-blue-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-black.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-black.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-black-light.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/skin-black-light.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/_all-skins.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/skins/_all-skins.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-without-plugins.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-without-plugins.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-select2.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-select2.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-fullcalendar.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-fullcalendar.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-bootstrap-social.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/alt/AdminLTE-bootstrap-social.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/AdminLTE.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/dist/css/AdminLTE.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-yellow.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-yellow-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-red.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-red-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-purple.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-purple-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-green.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-green-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-blue.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-blue-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-black.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/skin-black-light.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/skins/_all-skins.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/variables.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/users-list.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/timeline.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/table.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/social-widgets.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/small-box.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/sidebar.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/sidebar-mini.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/select2.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/progress-bars.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/profile.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/products.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/print.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/plugins.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/navs.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/modal.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/mixins.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/miscellaneous.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/mailbox.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/login_and_register.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/lockscreen.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/labels.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/invoice.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/info-box.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/header.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/fullcalendar.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/forms.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/dropdown.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/direct-chat.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/core.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/control-sidebar.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/carousel.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/callout.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/buttons.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/boxes.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/bootstrap-social.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/alerts.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/AdminLTE.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/AdminLTE-without-plugins.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/less/404_500_errors.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/vendor-prefixes.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/text-overflow.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/text-emphasis.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/table-row.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/tab-focus.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/size.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/responsive-visibility.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/resize.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/reset-text.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/reset-filter.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/progress-bar.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/panels.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/pagination.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/opacity.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/nav-vertical-align.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/nav-divider.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/list-group.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/labels.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/image.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/hide-text.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/grid.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/grid-framework.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/gradients.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/forms.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/clearfix.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/center-block.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/buttons.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/border-radius.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/background-variant.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins/alerts.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/variables.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/build/bootstrap-less/mixins.less" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/js/npm.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/js/bootstrap.min.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/js/bootstrap.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/css/bootstrap.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/css/bootstrap.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/css/bootstrap-theme.min.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bootstrap/css/bootstrap-theme.css" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/starter.html" crc="1495221692000"/>
+  <file name="/var/www/ecommerce/res/admin/package.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/index2.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/index.html" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/Gruntfile.js" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/composer.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/res/admin/bower.json" crc="1495221690000"/>
+  <file name="/var/www/ecommerce/index.php" crc="1605227656751"/>
+  <file name="/var/www/ecommerce/composer.json" crc="1601654521977"/>
+ </filescache>
+</project>
